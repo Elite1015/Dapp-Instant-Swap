@@ -26,7 +26,7 @@ const SUBDOMAIN_CHAIN_ID: { [subdomain: string]: string } = {
   [ChainSubdomain.ARBITRUM_NOVA]: '42170',
   [ChainSubdomain.BOBA_AVAX]: '43288',
 }
-
+// we need to define default chain id
 const DEFAULT_CHAIN_ID = '1'
 
 export function middleware(req: NextRequest) {
